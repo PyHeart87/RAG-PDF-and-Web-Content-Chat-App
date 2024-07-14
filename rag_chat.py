@@ -77,7 +77,7 @@ def get_llm(llm_choice):
         return Bedrock(
             model_id="anthropic.claude-v2",
             credentials_profile_name="default",
-            region_name="us-east-1"
+            region_name="eu-central-1"
         )
 
 def get_conversation_chain(vectorstore, llm):
